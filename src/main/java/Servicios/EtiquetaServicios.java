@@ -9,10 +9,6 @@ import java.util.ArrayList;
 
 public class EtiquetaServicios {
 
-    /*
-            Te permite conseguir todas las etiquetas que hay registradas en la base de datos por medio del form.
-    */
-
     public static ArrayList<Etiqueta> conseguirEtiquetas(Long idArticulo)
     {
         ArrayList<Etiqueta> etiquetas = new ArrayList<Etiqueta>();
@@ -65,12 +61,6 @@ public class EtiquetaServicios {
 
         return IDetiquetas;
     }
-
-   /*
-        Te permite conseguir el ID de cualquier consulta que se le pase, en el caso de que tenga ID la tabla, que en sí es válido
-        para todas las tablas existentes.
-    */
-
 
     public static long conseguirID(String consulta)
     {

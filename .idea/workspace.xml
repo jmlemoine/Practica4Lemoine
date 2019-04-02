@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2947bc53-565a-4df2-b476-bb28ba70de63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servicios/ComentarioServicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servicios/ComentarioServicios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servicios/EtiquetaServicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servicios/EtiquetaServicios.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -56,12 +56,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Servicios/ComentarioServicios.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Servicios/EtiquetaServicios.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
+            <state relative-caret-position="26">
+              <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#452#462#0" expanded="true" />
+                <element signature="e#1380#1386#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,7 +107,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Objetos/Comentario.java" />
         <option value="$PROJECT_DIR$/src/main/java/Objetos/Etiqueta.java" />
         <option value="$PROJECT_DIR$/src/main/java/Objetos/Usuario.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Servicios/EtiquetaServicios.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servicios/UsuarioServicios.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/publico/estilo.css" />
@@ -124,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Servicios/BaseDatosServicios.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servicios/BootStrapServicios.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servicios/ComentarioServicios.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Servicios/EtiquetaServicios.java" />
       </list>
     </option>
   </component>
@@ -190,7 +192,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554239162925" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554239219882" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../practica4-spark-orm-oscar-jean-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -314,12 +316,12 @@
       <workItem from="1554077259333" duration="920000" />
       <workItem from="1554216562989" duration="396000" />
       <workItem from="1554217649858" duration="790000" />
-      <workItem from="1554235671569" duration="2821000" />
+      <workItem from="1554235671569" duration="2879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9329000" />
+    <option name="totallyTimeSpent" value="9387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -373,18 +375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servicios/EtiquetaServicios.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="98" column="1" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#452#462#0" expanded="true" />
-            <element signature="e#1380#1386#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,10 +620,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Servicios/ComentarioServicios.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="1445">
           <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servicios/EtiquetaServicios.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#452#462#0" expanded="true" />
+            <element signature="e#1380#1386#0" expanded="true" />
           </folding>
         </state>
       </provider>
