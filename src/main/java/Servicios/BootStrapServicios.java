@@ -8,12 +8,7 @@ import java.sql.Statement;
 
 public class BootStrapServicios {
 
-    /*
-            Se encarga de iniciar la base de datos para poder hacer
-            transacciones y demás acciones.
-     */
-
-    public static void iniciarBaseDatos() throws SQLException {
+   public static void iniciarBaseDatos() throws SQLException {
         Server.createTcpServer("-tcpPort", "9092", "-tcpAllowOthers").start();
     }
 
