@@ -12,19 +12,9 @@ public class BootStrapServicios {
         Server.createTcpServer("-tcpPort", "9092", "-tcpAllowOthers").start();
     }
 
-    /*
-            Se encarga de detener la base de datos, en el caso de que sea
-            necesario.
-     */
-
     public static void detenerBaseDatos() throws SQLException {
         Server.shutdownTcpServer("tcp://localhost:9092", "", true, true);
     }
-
-    /*
-           Ejecutar cualquier consulta SQL que se le pase
-           como parámetro.
-     */
 
     public static void ejecutarSQL(String sql) throws SQLException {
         Connection conexion = BaseDatosServicios.getInstancia().getConexion();
@@ -37,9 +27,6 @@ public class BootStrapServicios {
         conexion.close();
     }
 
-    /*
-            Crear todas las tablas por medio de SQL.
-     */
 
     public static void crearTablas() throws SQLException {
         ejecutarSQL(
